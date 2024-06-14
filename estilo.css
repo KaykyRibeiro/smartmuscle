@@ -1,0 +1,15 @@
+:root{
+    --cor0: #000;
+    --cor1: #fff;
+    --cor2: #FF6000;
+    --cor3: #F24405;
+    --cor4: #F8F7F3;
+    --cor5: #262525;
+}
+
+.bg-black{
+    background: var(--cor0)
+}
+.bg-dark-grey{
+    background: var(--cor5)
+}

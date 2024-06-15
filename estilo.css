@@ -7,6 +7,9 @@
     --cor5: #262525;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 .bg-black{
     background: var(--cor0)
 }
@@ -18,4 +21,18 @@
 }
 .txt-oranje{
     color: var(--cor3)
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #ff6000;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: #ff6000;
+    --bs-nav-pills-link-active-bg: none;
 }

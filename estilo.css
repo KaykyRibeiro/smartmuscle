@@ -13,3 +13,9 @@
 .bg-dark-grey{
     background: var(--cor5)
 }
+.txt-white{
+    color: var(--cor1)
+}
+.txt-oranje{
+    color: var(--cor3)
+}

@@ -7,7 +7,7 @@
     --cor5: #262525;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 .bg-black{
@@ -35,4 +35,11 @@ html {
 .nav-pills {
     --bs-nav-pills-link-active-color: #ff6000;
     --bs-nav-pills-link-active-bg: none;
+}
+.bg-gardient-black{
+    background: linear-gradient #000, #fff;
+  background-attachment: fixed;
+}
+.spacer-lg{
+    margin-buttom: 3rem; /* Altere o valor conforme necessário */
 }

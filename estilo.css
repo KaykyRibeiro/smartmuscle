@@ -5,6 +5,8 @@
     --cor3: #F24405;
     --cor4: #F8F7F3;
     --cor5: #262525;
+    --cor6: #00ff00;
+    --cor7: #DEDEDE;
 }
 
 html{
@@ -16,17 +18,26 @@ html{
 .bg-black{
     background: var(--cor0)
 }
+.bg-white-2{
+    background: var(--cor7)
+}
 .bg-dark-grey{
     background: var(--cor5)
 }
 .txt-white{
     color: var(--cor1)
 }
+.txt-black{
+    color: var(--cor0)
+}
 .txt-oranje{
     color: var(--cor3)
 }
 .txt-oranje-2{
     color: var(--cor2)
+}
+.txt-green{
+    color: var(--cor6)
 }
 
 .nav-link {
@@ -56,18 +67,4 @@ ul {
     list-style-type: none; /* Remove os marcadores padrão */
     padding: 0;
     margin: 0;
-}
-ul li {
-    position: relative;
-    padding-left: 20px; /* Espaço para o ícone */
-}
-ul li::before {
-    content: '';
-    background-image: url('caminho/para/o/icone.png'); /* Define a imagem como ícone */
-    background-size: contain;
-    width: 16px; /* Largura do ícone */
-    height: 16px; /* Altura do ícone */
-    position: absolute;
-    left: 0;
-    top: 0;
 }

@@ -10,6 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
+.sobreposicao{
+    z-index: 1;
+}
 .bg-black{
     background: var(--cor0)
 }
@@ -21,6 +24,9 @@ html{
 }
 .txt-oranje{
     color: var(--cor3)
+}
+.txt-oranje-2{
+    color: var(--cor2)
 }
 
 .nav-link {
@@ -41,5 +47,27 @@ html{
   background-attachment: fixed;
 }
 .spacer-lg{
-    margin-buttom: 3rem; /* Altere o valor conforme necessário */
+    margin-buttom: 100rem; /* Altere o valor conforme necessário */
+}
+.border-secondary{
+    color: var(--cor2)
+}
+ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    position: relative;
+    padding-left: 20px; /* Espaço para o ícone */
+}
+ul li::before {
+    content: '';
+    background-image: url('caminho/para/o/icone.png'); /* Define a imagem como ícone */
+    background-size: contain;
+    width: 16px; /* Largura do ícone */
+    height: 16px; /* Altura do ícone */
+    position: absolute;
+    left: 0;
+    top: 0;
 }

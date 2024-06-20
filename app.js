@@ -2,7 +2,7 @@ const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 const appendAlert = (message, type) => {
   const wrapper = document.createElement('div')
   wrapper.innerHTML = [
-    `<div class="alert alert-${type} d-flex align-items-center" role="alert">`,
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
     `   <div>${message}</div>`,
     '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
     '</div>'
@@ -19,8 +19,15 @@ if (alertTrigger) {
 }
 
 const alertTriggerNot = document.getElementById('notAlertBtn')
-if (alertTrigger) {
-  alertTrigger.addEventListener('click', () => {
+if (alertTriggerNot) {
+  alertTriggerNot.addEventListener('click', () => {
+    appendAlert('Você não tem dinheiro para realizar esta compra', 'danger')
+  })
+}
+
+const alertTriggerCasal = document.getElementById('liveAlertBtnCasal')
+if (alertTriggerCasal) {
+  alertTriggerCasal.addEventListener('click', () => {
     appendAlert('Parabéns, compra realizada com sucesso. Acesse seus cursos/plalinhas na suas compras na area de navegação', 'success')
   })
 }

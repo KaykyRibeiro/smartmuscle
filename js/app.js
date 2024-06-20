@@ -14,7 +14,7 @@ const appendAlert = (message, type) => {
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
   alertTrigger.addEventListener('click', () => {
-    appendAlert('Parabéns, compra realizada com sucesso. Acesse seus cursos/plalinhas na suas compras na area de navegação', 'success')
+    appendAlert('Parabéns, compra realizada com sucesso. Acesse seus cursos/plalinhas na sua area de compras ao lado na barra de navegação', 'success')
   })
 }
 
@@ -28,6 +28,6 @@ if (alertTriggerNot) {
 const alertTriggerCasal = document.getElementById('liveAlertBtnCasal')
 if (alertTriggerCasal) {
   alertTriggerCasal.addEventListener('click', () => {
-    appendAlert('Parabéns, compra realizada com sucesso. Acesse seus cursos/plalinhas na suas compras na area de navegação', 'success')
+    appendAlert('Parabéns, compra realizada com sucesso. Acesse seus cursos/plalinhas na sua area de compras ao lado na barra de navegação', 'success')
   })
 }

@@ -13,6 +13,9 @@ html{
     scroll-behavior: smooth;
 }
 .sobreposicao{
+    z-index: 8;
+}
+.superosicao{
     z-index: 10;
 }
 .bg-black{
@@ -28,13 +31,13 @@ html{
     color: var(--cor1)
 }
 .txt-black{
-    color: var(--cor0)
+    color: var(--cor0);
 }
 .txt-oranje{
-    color: var(--cor3)
+    color: var(--cor3) !important;
 }
 .txt-oranje-2{
-    color: var(--cor2)
+    color: var(--cor2) !important;
 }
 .txt-green{
     color: var(--cor6)
@@ -43,10 +46,13 @@ html{
 .nav-link {
     color: #fff;
 }
+.nav-link.active{
+    color: #ff6000 !important;
+}
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #ff6000;
+    color: #ff6000 !important;
 }
 
 .nav-pills {
@@ -74,4 +80,53 @@ ul {
 }
 .fz{
     font-size: 10px;
+}
+.fz-20{
+    font-size:18px;
+}
+
+.ms-11 {
+    margin-left: 11.3rem !important;
+}
+.mt-7 {
+    margin-top: .7rem !important;
+}
+.lupa {
+    top: 1.8rem !important;
+    right: 10.5rem;
+}
+.lupa-cell{
+    top: 1.8rem !important;
+    right: 5.5rem;
+}
+.mt-10 {
+    margin-top: 10rem !important;
+}
+.mt-5-5{
+    margin-top: 5.5rem !important;
+}
+.mt-7 {
+    margin-top: 7rem !important;
+}
+.mt-6{
+    margin-top: 6rem !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #ff6000;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #F24405 !important;
+}
+.border-orange{
+    color: #ff6000 !important;
+}
+.page-link{
+    color: #ff6000 !important;
+    background-color: #000 !important;
 }
